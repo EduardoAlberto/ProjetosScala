@@ -42,20 +42,15 @@ object ingest {
                                     col("date_formatted")
                             )
 
-
-
-    dfFinal.show(1000)
-
-
     val properties = new Properties()
     properties.put("user", "root")
     properties.put("password", "mysql")
     val url = "jdbc:mysql://localhost:3306/myDbUser"
 
-//    dfs.write.mode("overwrite").jdbc(url, "tb_netflix",properties)
-//    dfs.show()
+    dfFinal.write.mode("overwrite").jdbc(url, "tb_netflix",properties)
+    dfFinal.show()
 
-    //dfs.select("date_added").groupBy("date_added").count().distinct().show(1000)
+    dfFinal.select("date_added").groupBy("date_added").count().distinct().show(1000)
 
 
     spark.sparkContext.setLogLevel("ERROR")

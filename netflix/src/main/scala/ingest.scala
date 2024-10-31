@@ -48,11 +48,6 @@ object ingest {
     val url = "jdbc:mysql://localhost:3306/myDbUser"
 
     dfFinal.write.mode("overwrite").jdbc(url, "tb_netflix",properties)
-    dfFinal.show()
-
-    dfFinal.select("date_added").groupBy("date_added").count().distinct().show(1000)
-
-
     spark.sparkContext.setLogLevel("ERROR")
     spark.stop()
   }

@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(all {file:/Users/eduardoalberto/ProjetosScala/netflix/}root/products {file:/Users/eduardoalberto/ProjetosScala/netflix/}root/test:products, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / products, Test / products[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /Users/eduardoalberto/ProjetosScala/netflix/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eduardoalberto/ProjetosScala/netflix/src/main/scala/ingest.scala:18:71: unclosed string literal[0m
+[0m[[0m[31merror[0m] [0m[0m    val dir = /Users/eduardoalberto/LoadFile/input/netflix_titles.csv"[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eduardoalberto/ProjetosScala/netflix/src/main/scala/ingest.scala:18:66: ';' expected but '.' found.[0m
+[0m[[0m[31merror[0m] [0m[0m    val dir = /Users/eduardoalberto/LoadFile/input/netflix_titles.csv"[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed May 29, 2025 11:06:58 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

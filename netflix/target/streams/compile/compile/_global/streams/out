@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/eduardoalberto/ProjetosScala/netflix/src/main/scala/ingest.scala:18:71: unclosed string literal[0m
+[0m[[0m[31merror[0m] [0m[0m    val dir = /Users/eduardoalberto/LoadFile/input/netflix_titles.csv"[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/eduardoalberto/ProjetosScala/netflix/src/main/scala/ingest.scala:18:66: ';' expected but '.' found.[0m
+[0m[[0m[31merror[0m] [0m[0m    val dir = /Users/eduardoalberto/LoadFile/input/netflix_titles.csv"[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

@@ -1,7 +1,5 @@
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(all {file:/Users/eduardoalberto/ProjetosScala/netflix/}root/products {file:/Users/eduardoalberto/ProjetosScala/netflix/}root/test:products, None, None)[0m
 [0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / products, Test / products[0m
 [0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /Users/eduardoalberto/ProjetosScala/netflix/target/scala-2.12/classes ...[0m
-[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
-[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed Jun 2, 2025 11:07:10 PM[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed Jun 9, 2025 9:34:36 PM[0m
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

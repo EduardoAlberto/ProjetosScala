@@ -12,3 +12,4 @@ libraryDependencies += "org.apache.spark" %% "spark-mllib" % "3.5.6"
 libraryDependencies += "org.apache.spark" %% "spark-streaming" % "3.5.6"
 libraryDependencies += "mysql" % "mysql-connector-java" % "8.0.33"
 libraryDependencies += "org.postgresql" % "postgresql" % "42.7.6"
+

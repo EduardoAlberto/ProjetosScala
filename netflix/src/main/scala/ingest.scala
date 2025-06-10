@@ -19,7 +19,7 @@ object ingest {
       val df = txt.arq(dir)
 
       val dfs = df.na.fill("unknown", Seq("country"))
-        .na.fill("unknown", Seq("cast", "director"))
+                  .na.fill("unknown", Seq("cast", "director"))
 
       val dfTrimmed = dfs.withColumn("date_string_trimmed", trim(col("date_added")))
       val dateRegex = "([A-Za-z]+\\s+\\d{1,2},\\s+\\d{4})"
